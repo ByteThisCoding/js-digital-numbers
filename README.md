@@ -178,5 +178,3 @@ In the trimmed HTML document below, we've taken care of those final steps.
 </body>
 </html>
 ```
-
-...........
