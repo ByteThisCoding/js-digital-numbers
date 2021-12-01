@@ -1,5 +1,7 @@
 # digital-number-display
-An implementation of digital number display using Web Components.
+An implementation of digital number display using Web Components. Feel free to also take a look at:
+* Our [YouTube Video](https://www.youtube.com/watch?v=oGIn3G2cuEg), where we code this in real time with some music.
+* Our [Dev Page](https://bytethisstore.com/articles/pg/js-digital-numbers), where we cover this in more detail.
 
 ## Digital Display Requirements
 For this example, we'll create a digital number display which will:
