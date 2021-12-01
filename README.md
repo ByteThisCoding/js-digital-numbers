@@ -12,7 +12,7 @@ For this example, we'll create a digital number display which will:
 To satisfy the requirements above, we will need to create a component which can display any amount of *digital digits* units to represent numbers which have any amount of digits. In order to keep the code clean and reusable, we're going to create two seperate web components:
 * **digital-digit** will be responsible for displaying a single digit as a digital digit.
 * **digital-number** will be responsible for using multiple ``digital-digit`` components and assigning the appropriate digits to each.
-We'll put each web component in its own file, then load both files into the HTML document head.
+We'll put each web component in its own file, then load both files into the HTML document head. Before proceeding, if you'd like to view a more detailed introduction to web components, check out our [Introduction to Web Components](https://bytethisstore.com/articles/pg/intro-web-components) dev page.
 
 ## Creating the digital-digit Component
 We will implement logic in this component to take care of:
