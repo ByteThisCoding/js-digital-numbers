@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Digital Number - Byte This!</title>
+
+    <style>
+        body {
+            font-family: Consolas;
+            font-size: 1.4em;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+
+        header {
+            border-bottom: 1px solid black;
+            padding: 10px;
+            background-color: #009a7a;
+        }
+
+        content {
+            display: block;
+            padding: 20px;
+        }
+
+        /* Digital Digit / Number Styles */
+        digital-digit {
+            display: inline-block;
+
+            height: 130px;
+            width: 65px;
+
+            margin: 20px;
+        }
+
+        /** These classes will control individual digit part visibility */
+        .digital-digit-inactive {
+            background-color: #101010;
+        }
+        .digital-digit-active {
+            background-color: #01ffcb;
+            /* add slight boldness to active elements */
+            border: 1px solid #01ffcb;
+        }
+
+    </style>
+
+    <script src="digital-digit.js"></script>
+    <script src="digital-number.js"></script>
+
+</head>
+<body>
+
+    <header>
+        Web-Dev with Music - Byte This!
+    </header>
+
+    <content>
+        <h1>Digital Number Display</h1>
+        <p>We'll split into two parts: a single digit display and a whole number display.
+            Both will be implemented using Web Components.
+        </p>
+
+        <h3>Single Digit</h3>
+        <digital-digit display-digit="2"></digital-digit>
+
+        <h3>Multiple Digit Number</h3>
+        <digital-number display-number="2152347"></digital-number>
+
+    </content>
+</body>
+</html>
