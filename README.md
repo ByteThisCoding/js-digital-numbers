@@ -3,6 +3,9 @@ An implementation of digital number display using Web Components. Feel free to a
 * Our [YouTube Video](https://www.youtube.com/watch?v=oGIn3G2cuEg), where we code this in real time with some music.
 * Our [Dev Page](https://bytethisstore.com/articles/pg/js-digital-numbers), where we cover this in more detail.
 
+## Demo the Live Example
+The live example can be viewed in action on [this page](https://htmlpreview.github.io/?https://github.com/ByteThisStore/js-digital-numbers/blob/main/example.html).
+
 ## Digital Display Requirements
 For this example, we'll create a digital number display which will:
 * Show a positive integer in a digital number style display.
